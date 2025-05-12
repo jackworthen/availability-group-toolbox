@@ -29,7 +29,6 @@ GO
 	BACKUP LOG  [$(DbName)] to disk = '$(BkupDir)\$(DbName)\$(Primary)_post_refresh_reSETAG.trn';
 GO 
 
-/*Connect to Secondary*/
 :CONNECT $(Secondary)
 /*Check If Database Exists on Secondary and Drop it */	
 	IF EXISTS (SELECT 1 FROM SYS.DATABASES WHERE NAME = '$(DbName)')
