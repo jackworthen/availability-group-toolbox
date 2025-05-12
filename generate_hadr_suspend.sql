@@ -1,3 +1,4 @@
+/* Generate script to suspend replication on all Availability Group databases */
 SELECT 'ALTER DATABASE [' + dbcs.database_name + '] SET HADR SUSPEND'
 FROM master.sys.availability_groups AS AG
   LEFT OUTER JOIN master.sys.dm_hadr_availability_group_states as agstates
