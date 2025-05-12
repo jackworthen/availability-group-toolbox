@@ -6,6 +6,7 @@ Date: 5/12/2025
 Script must be run in SQL CMD Mode (Query>>SQL CMD Mode)
 */
 
+/*Define Variables*/
 :ON ERROR EXIT
 :SETVAR Primary ""
 :SETVAR Secondary "" 
