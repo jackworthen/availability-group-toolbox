@@ -35,6 +35,15 @@ Welcome to your one-stop script shop for managing SQL Server Availability Groups
 Perfect for automating AG onboarding or refreshing secondary replicas!
 ---
 
+### `AG_check_status.sql`  
+✅ **Mission:** Returns the current status of all availabilty groups and databases
+
+**What it does:**
+- Outputs `AvailabilityGroupName, DatabaseName, AGState, failover_mode_desc, availability_mode_desc, isSuspended` for all AG databases
+- Easy way to quickly monitor and track the status of your AG.
+
+---
+
 ### `generate_hadr_suspend.sql`  
 ⛔ **Mission:** Safely suspend data movement for your databases.
 
