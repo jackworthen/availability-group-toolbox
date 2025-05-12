@@ -21,6 +21,7 @@ Welcome to your one-stop script shop for managing SQL Server Availability Groups
 - Joins it to the AG
 - Kicks off automatic seeding (if enabled)
 
+
 **Define Variables**
 - Primary - Server currently set as Primary in AG or AG Name
 - Secondary - Server currently set as Secondary
