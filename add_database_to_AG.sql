@@ -4,17 +4,18 @@ Developed by Jack Worthen
 Date: 5/12/2025
 
 Script must be run in SQL CMD Mode (Query>>SQL CMD Mode)
+Update defined variables to match your system configuration.
 */
 
 /*Define Variables*/
 :ON ERROR EXIT
-:SETVAR Primary ""
-:SETVAR Secondary "" 
-:SETVAR DbName ""
-:SETVAR BkupDir "" 
-:SETVAR DataDir	""
-:SETVAR LogDir	""
-:SETVAR LogBkupJob ""
+:SETVAR Primary "jw-sql-01"
+:SETVAR Secondary "jw-sql-02" 
+:SETVAR DbName "MyDatabase"
+:SETVAR BkupDir "D:\Backup" 
+:SETVAR DataDir	"D:\MSSQL15.MSSQLSERVER\MSSQL\DATA"
+:SETVAR LogDir	"L:\MSSQL15.MSSQLSERVER\MSSQL\DATA"
+:SETVAR LogBkupJob "Backup Database Logs"
 
 SET NOCOUNT ON;
 
