@@ -4,7 +4,8 @@ Welcome to your one-stop script shop for managing SQL Server Availability Groups
 
 - 🔁 Suspend HADR (replication) safely
 - ▶️ Resume HADR (replication) with confidence
-- ➕ Add new or existing databases to your AG like a pro
+- ➕ Add new or existing databases to your AG.  
+- ⭐ Works great when dealing with TDE encrypted databases.
 
 > 💡 Whether you're prepping for maintenance, onboarding a new database, or recovering from a hiccup, this toolkit saves you time and sanity.
 
@@ -32,8 +33,6 @@ Welcome to your one-stop script shop for managing SQL Server Availability Groups
 - LogBkupJob - Agent job that runs log backups
 
 Perfect for automating AG onboarding or refreshing secondary replicas!
-It also works great when dealing with TDE encrypted databases.
-
 ---
 
 ### `generate_hadr_suspend.sql`  
