@@ -79,7 +79,7 @@ Found a bug? Want to suggest improvements? Open a PR or start a discussion!
 
 ## 🧙‍♂️ Author
 
-Crafted with care by a SQL Server wizard who knows AGs are magic when they work — and chaos when they don’t.
+Jack Worthen
 
 ---
 
