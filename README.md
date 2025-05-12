@@ -36,11 +36,19 @@ Perfect for automating AG onboarding or refreshing secondary replicas!
 ---
 
 ### `AG_check_status.sql`  
-✅ **Mission:** Returns the current status of all availabilty groups and databases
+✅ **Mission:** Returns the current status of all availabilty groups and databases.
 
 **What it does:**
 - Outputs `AvailabilityGroupName, DatabaseName, AGState, failover_mode_desc, availability_mode_desc, isSuspended` for all AG databases
 - Easy way to quickly monitor and track the status of your AG.
+
+---
+
+### `AG_backup_restore_status.sql`  
+✅ **Mission:** Monitors both the primary and secondary for backup and restore activity.
+
+**What it does:**
+- Allows the user to set the primary and secondary hosts and with a single click check the backup and restore status without having to switch connections manually.
 
 ---
 
