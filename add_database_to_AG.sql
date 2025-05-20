@@ -1,5 +1,5 @@
 /*
-SQL CMD script for adding Availability Group to SQL Server
+SQLCMD script for adding Availability Group to SQL Server
 Developed by Jack Worthen
 Date: 5/12/2025
 
